@@ -65,7 +65,8 @@ section{
 }
 .boton{
 	background-color: #3EB0F7;
-	width: 90%;
+	border: transparent;
+	width: 93%;
 	color: #FFFFFF;
 	font-size: 1em;
 	padding: 1% 0%;
@@ -99,6 +100,9 @@ footer a{
 @media (max-width: 535px){
 	body{
 	font-size: 12px;
+	}
+	header img{
+	width: 50%;
 	}
 	.descript{
 	width: 90%;
