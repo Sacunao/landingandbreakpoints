@@ -1,0 +1,109 @@
+body{
+	font-family: Open Sans;
+}
+/*------HEADER--------*/
+header{
+	padding: 1% 0%;
+}
+header img{
+	width: 15%;
+	padding-left: 2%;
+}
+header a{
+	text-decoration: none;
+	color: #7F7DA2
+}
+header a:hover{
+	color: #F7BA6A;
+}
+.menu{
+	float: right;
+	padding-right: 20%;
+}
+
+/*-----SECCION------*/
+section{
+	background-color: #808080;
+	padding: 4% 2%;
+}
+.descript{
+	width: 80%;
+	color: #FFFFFF;
+}
+.descript h1{
+	font-size: 3em;
+	padding-bottom: 1%;
+}
+.descript p{
+	font-size: 0.8em;
+	margin-bottom: 7%;
+}
+
+.formulario{
+	background-color: #9A9A9A;
+	border-radius: 2.9%;
+	color: #FFFFFF;
+	text-align: center;
+	width: 60%;
+	padding: 6% 2%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mensaje{
+	width: 100%;
+}
+.titulo{
+	font-size: 1.2em;
+}
+.entrada, .boton, .titulo{
+	margin-bottom: 2%;
+}
+.entrada{
+	width: 100%;
+	padding: 1%;
+	font-size: 1em;
+}
+.boton{
+	background-color: #3EB0F7;
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 1em;
+	padding: 1% 0%;
+}
+/*-----FOOTER-----*/
+footer{
+	color: #87817D;
+}
+footer a{
+	text-decoration: none;
+}
+
+/*-----------MEDIA QUERY------------*/
+@media (max-width: 1024px){
+	body{
+	font-size: 16px;
+	}
+}
+
+@media (max-width: 768px){
+	body{
+	font-size: 12px;
+	}
+	.descript{
+	width: 80%;
+	}
+	.formulario{
+	width: 80%;
+	}
+}
+@media (max-width: 535px){
+	body{
+	font-size: 12px;
+	}
+	.descript{
+	width: 90%;
+	}
+	.formulario{
+	width: 90%;
+	}
