@@ -1,13 +1,16 @@
+
 body{
 	font-family: Open Sans;
+}
+.container{
+	width: 80%;
 }
 /*------HEADER--------*/
 header{
 	padding: 1% 0%;
 }
 header img{
-	width: 15%;
-	padding-left: 2%;
+	width: 20%;
 }
 header a{
 	text-decoration: none;
@@ -16,18 +19,14 @@ header a{
 header a:hover{
 	color: #F7BA6A;
 }
-.menu{
-	float: right;
-	padding-right: 20%;
-}
+
 
 /*-----SECCION------*/
 section{
 	background-color: #808080;
-	padding: 4% 2%;
+	padding: 4% 0%;
 }
 .descript{
-	width: 80%;
 	color: #FFFFFF;
 }
 .descript h1{
@@ -60,13 +59,13 @@ section{
 	margin-bottom: 2%;
 }
 .entrada{
-	width: 100%;
+	width: 90%;
 	padding: 1%;
 	font-size: 1em;
 }
 .boton{
 	background-color: #3EB0F7;
-	width: 100%;
+	width: 90%;
 	color: #FFFFFF;
 	font-size: 1em;
 	padding: 1% 0%;
